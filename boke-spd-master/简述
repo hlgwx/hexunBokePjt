@@ -1,0 +1,11 @@
+功能：
+    爬取和讯博客指定人所有文章，文章链接，点击数，评论数，将爬取内容存入mysql数据库中；
+知识点：
+    scrapy爬虫框架，basic爬虫模板，python3链接MySQL数据库及信息插入；关闭cookie，不遵守robots协议进行爬虫
+    Fiddler分析解决Javascript动态获取的信息，找到真实网址从而得到目标数据；模拟浏览器添加headers；正则表达式，xpath
+难点：
+    Fiddler分析解决Javascript动态获取的信息点击数及评论数；
+
+本项目遇到反爬虫及解决：
+   模拟浏览器添加headers；关闭cookie，不遵守robots协议进行爬虫
+
